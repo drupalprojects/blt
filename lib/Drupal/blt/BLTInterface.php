@@ -37,7 +37,7 @@ interface BLTInterface {
   public function sweetVegetable();
 
   /**
-   * Gets the savory protein of the sandwich.
+   * Gets the wrapper for the sandwich.
    *
    * @return Drupal\blt\Ingredient
    *   The wrapper of the sandwich, e.g. bread or toast.
