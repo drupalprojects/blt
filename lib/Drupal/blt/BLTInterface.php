@@ -45,6 +45,14 @@ interface BLTInterface {
   public function wrapper();
 
   /**
+   * Gets the condiments for the sandwich.
+   *
+   * @return array
+   *   An array of Drupal\blt\Ingredient object condiments.
+   */
+  public function condiments();
+
+  /**
    * Gets the filler ingredients for the sandwich.
    *
    * @return array
